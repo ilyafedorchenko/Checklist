@@ -15,6 +15,7 @@
 		04CAC8C721D04B1700273B88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CAC8C621D04B1700273B88 /* Assets.xcassets */; };
 		04CAC8CA21D04B1700273B88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CAC8C821D04B1700273B88 /* LaunchScreen.storyboard */; };
 		04CAC8D221D04C3500273B88 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 04CAC8D121D04C3500273B88 /* .gitignore */; };
+		E9E48C8121D42A7A005790F0 /* AddItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E48C8021D42A7A005790F0 /* AddItemTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		04CAC8C921D04B1700273B88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04CAC8CB21D04B1700273B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04CAC8D121D04C3500273B88 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E9E48C8021D42A7A005790F0 /* AddItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				04CAC8CB21D04B1700273B88 /* Info.plist */,
 				0488FD0321D2BF050038D20D /* ChecklistItem.swift */,
 				0488FD0521D2DC8E0038D20D /* TodoList.swift */,
+				E9E48C8021D42A7A005790F0 /* AddItemTableViewController.swift */,
 			);
 			path = Checklist;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04CAC8C221D04B1500273B88 /* ChecklistViewController.swift in Sources */,
+				E9E48C8121D42A7A005790F0 /* AddItemTableViewController.swift in Sources */,
 				0488FD0421D2BF050038D20D /* ChecklistItem.swift in Sources */,
 				04CAC8C021D04B1500273B88 /* AppDelegate.swift in Sources */,
 				0488FD0621D2DC8E0038D20D /* TodoList.swift in Sources */,
